@@ -14,7 +14,7 @@ capabilities = webdriver.DesiredCapabilities.CHROME
 proxy.add_to_capabilities(capabilities)
 
 # replace 'your_absolute_path' with your chrome binary absolute path
-driver = webdriver.Chrome('your_absolute_path'', desired_capabilities=capabilities)
+driver = webdriver.Chrome('your_absolute_path', desired_capabilities=capabilities)
 
 driver.get('http://whatismyipaddress.com')
 
